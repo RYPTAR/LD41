@@ -39,9 +39,10 @@ bool MainMenu::init()
                                            "CloseSelected.png",
                                            CC_CALLBACK_1(MainMenu::menuCloseCallback, this));
     
-    auto playButton = MenuItemImage::create(
-                                            "HeroFish_idle0.png",
-                                            "HeroFish_idleShot0.png",
+//TODO: FIX SPRITE SHEET
+    auto playButton = MenuItemSprite::create(
+                                            Sprite::createWithSpriteFrameName("HeroFish_idle0.png"),
+                                            Sprite::createWithSpriteFrameName("HeroFish_idleShot0.png"),
                                             CC_CALLBACK_1(MainMenu::startGame, this));
     
     
@@ -65,7 +66,12 @@ bool MainMenu::init()
     }
     else
     {
+        /*float x = origin.x + visibleSize.width/2 + playButton->getContentSize().width/2;
+        float y = origin.y + visibleSize.height/2 + playButton->getContentSize().height/2;
+        playButton->setPosition(Vec2(x,y));*/
+        
         playButton->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+        CCLOG("LOADED");
     }
     
     // create menu, it's an autorelease object

@@ -97,7 +97,6 @@ bool AppDelegate::applicationDidFinishLaunching() {
         resDirOrders.push_back("iphonehd5");
         resDirOrders.push_back("iphonehd");
         resDirOrders.push_back("iphone");
-        
         CCLOG("XHD");
         
         //*****END******
@@ -107,7 +106,6 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // if the frame's height is larger than the height of small size.
     else if (frameSize.height > smallResolutionSize.height)
     {
-        
         //****ADDED*****
         //FOLDER PUSH_BACK SYSTEM
         
@@ -115,7 +113,6 @@ bool AppDelegate::applicationDidFinishLaunching() {
         resDirOrders.push_back("iphonehd5");
         resDirOrders.push_back("iphonehd");
         resDirOrders.push_back("iphone");
-        
         CCLOG("HD");
         
         //*****END******
@@ -125,17 +122,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // if the frame's height is smaller than the height of medium size.
     else
     {
-        
         //****ADDED*****
         //FOLDER PUSH_BACK SYSTEM
         
-        
         resDirOrders.push_back("iphone");
-        
         CCLOG("SD");
         
         //*****END******
-
         
         director->setContentScaleFactor(MIN(smallResolutionSize.height/designResolutionSize.height, smallResolutionSize.width/designResolutionSize.width));
     }
@@ -146,7 +139,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     //RESOURCES
     fileUtils->setSearchPaths(resDirOrders);
     
-    std::string file = ("Sprites.plist");
+    std::string sprites = ("Sprites.plist");
+    SpriteFrameCache::getInstance()->SpriteFrameCache::addSpriteFramesWithFile(sprites);
     
     //*****END******
 
