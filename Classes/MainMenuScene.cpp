@@ -40,8 +40,8 @@ bool MainMenu::init()
                                            CC_CALLBACK_1(MainMenu::menuCloseCallback, this));
     
     auto playButton = MenuItemImage::create(
-                                            "CloseNormal.png",
-                                            "CloseSelected.png",
+                                            "HeroFish_idle0.png",
+                                            "HeroFish_idleShot0.png",
                                             CC_CALLBACK_1(MainMenu::startGame, this));
     
     
@@ -61,13 +61,11 @@ bool MainMenu::init()
         playButton->getContentSize().width <= 0 ||
         playButton->getContentSize().height <= 0)
     {
-        problemLoading("'CloseNormal.png' and 'CloseSelected.png'");
+        problemLoading("'HeroFish_idle0.png' and 'HeroFish_idleShot0.png'");
     }
     else
     {
-        float x = origin.x + visibleSize.width/2 + playButton->getContentSize().width/2;
-        float y = origin.y + visibleSize.height/2 + playButton->getContentSize().height/2;
-        playButton->setPosition(Vec2(x,y));
+        playButton->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     }
     
     // create menu, it's an autorelease object
@@ -99,18 +97,18 @@ bool MainMenu::init()
     }
     
     // add "HelloWorld" splash screen"
-    auto sprite = Sprite::create("HelloWorld.png");
-    if (sprite == nullptr)
+    auto background = Sprite::create("bgL.png");
+    if (background == nullptr)
     {
-        problemLoading("'HelloWorld.png'");
+        problemLoading("'bgL.png'");
     }
     else
     {
         // position the sprite on the center of the screen
-        sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+        background->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
         
         // add the sprite as a child to this layer
-        this->addChild(sprite, 0);
+        this->addChild(background, 0);
     }
     return true;
 }
