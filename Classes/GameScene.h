@@ -19,5 +19,12 @@ public:
     
     void menuCloseCallback(Ref* pSender);
     
+    void buildWorld();
+    void mainThread();
+    
+    
+    /*void pauseGame(Ref* pSender);
+    void quitGame(Ref* pSender);*/
+    
     CREATE_FUNC(Game);
 };

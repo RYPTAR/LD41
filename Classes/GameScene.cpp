@@ -8,6 +8,8 @@
 #include "GameScene.h"
 #include "SimpleAudioEngine.h"
 
+#include "Player.h"
+
 USING_NS_CC;
 
 Scene* Game::createScene()
