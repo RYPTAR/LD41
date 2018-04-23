@@ -18,7 +18,7 @@ public:
     virtual bool init();
     
     void buildWorld();
-    void mainThread(float rt);
+    void mainThread(float dt);
     
     /*void pauseGame(Ref* pSender);
     void quitGame(Ref* pSender);*/

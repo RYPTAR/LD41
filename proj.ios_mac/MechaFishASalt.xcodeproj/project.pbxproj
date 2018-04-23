@@ -72,6 +72,8 @@
 		C05229D2208D3E34002CEB5C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D0208D3E34002CEB5C /* Player.cpp */; };
 		C05229D6208E2A78002CEB5C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D5208E2A78002CEB5C /* World.cpp */; };
 		C05229D7208E2A78002CEB5C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D5208E2A78002CEB5C /* World.cpp */; };
+		C05229DA208EA1DD002CEB5C /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D9208EA1DD002CEB5C /* Entity.cpp */; };
+		C05229DB208EA1DD002CEB5C /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D9208EA1DD002CEB5C /* Entity.cpp */; };
 		C0B0B13F208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */; };
 		C0B0B140208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -186,6 +188,8 @@
 		C05229D3208D463F002CEB5C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C05229D4208E2A57002CEB5C /* World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
 		C05229D5208E2A78002CEB5C /* World.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		C05229D8208EA1BF002CEB5C /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		C05229D9208EA1DD002CEB5C /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
 		C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuScene.cpp; sourceTree = "<group>"; };
 		C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -346,6 +350,8 @@
 				C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */,
 				C05229D4208E2A57002CEB5C /* World.h */,
 				C05229D5208E2A78002CEB5C /* World.cpp */,
+				C05229D8208EA1BF002CEB5C /* Entity.h */,
+				C05229D9208EA1DD002CEB5C /* Entity.cpp */,
 				C05229D3208D463F002CEB5C /* Constants.h */,
 			);
 			name = Classes;
@@ -559,6 +565,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				C03E6271208C418500A36BB3 /* GameScene.cpp in Sources */,
 				C0B0B13F208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */,
+				C05229DA208EA1DD002CEB5C /* Entity.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,6 +578,7 @@
 				C05229D7208E2A78002CEB5C /* World.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				C05229DB208EA1DD002CEB5C /* Entity.cpp in Sources */,
 				C0B0B140208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

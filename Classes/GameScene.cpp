@@ -11,6 +11,7 @@
 #include "Constants.h"
 #include "Player.h"
 #include "World.h"
+#include "Entity.h"
 
 USING_NS_CC;
 
@@ -61,7 +62,7 @@ void Game::buildWorld()
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
-    auto player = Player::create();
+    auto player = Entity::create();
     player->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     player->setTag(TAG_PLAYER);
     
