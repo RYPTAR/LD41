@@ -181,6 +181,7 @@
 		C05229CA208CAF3A002CEB5C /* iphonehd5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphonehd5; sourceTree = "<group>"; };
 		C05229CF208D3E1A002CEB5C /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		C05229D0208D3E34002CEB5C /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		C05229D3208D463F002CEB5C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuScene.cpp; sourceTree = "<group>"; };
 		C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -339,6 +340,7 @@
 				C05229D0208D3E34002CEB5C /* Player.cpp */,
 				C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */,
 				C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */,
+				C05229D3208D463F002CEB5C /* Constants.h */,
 			);
 			name = Classes;
 			path = ../Classes;

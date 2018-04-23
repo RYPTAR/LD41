@@ -41,17 +41,15 @@ bool MainMenu::init()
     
 //TODO: FIX SPRITE SHEET
     auto playButton = MenuItemSprite::create(
-                                            Sprite::createWithSpriteFrameName("HeroFish_idle0.png"),
-                                            Sprite::createWithSpriteFrameName("HeroFish_idleShot0.png"),
+                                            Sprite::createWithSpriteFrameName("LaunchButton0.png"),
+                                            Sprite::createWithSpriteFrameName("LaunchButton1.png"),
                                             CC_CALLBACK_1(MainMenu::startGame, this));
     
     
     if (closeItem == nullptr ||
         closeItem->getContentSize().width <= 0 ||
         closeItem->getContentSize().height <= 0)
-    {
-        problemLoading("'CloseNormal.png' and 'CloseSelected.png'");
-    }
+    { problemLoading("'CloseNormal.png' and 'CloseSelected.png'"); }
     else
     {
         float x = origin.x + visibleSize.width - closeItem->getContentSize().width/2;
@@ -61,16 +59,14 @@ bool MainMenu::init()
     if (playButton == nullptr ||
         playButton->getContentSize().width <= 0 ||
         playButton->getContentSize().height <= 0)
-    {
-        problemLoading("'HeroFish_idle0.png' and 'HeroFish_idleShot0.png'");
-    }
+    { problemLoading("'HeroFish_idle0.png' and 'HeroFish_idleShot0.png'"); }
     else
     {
-        /*float x = origin.x + visibleSize.width/2 + playButton->getContentSize().width/2;
-        float y = origin.y + visibleSize.height/2 + playButton->getContentSize().height/2;
-        playButton->setPosition(Vec2(x,y));*/
+        float x = origin.x + visibleSize.width/2;
+        float y = origin.y + visibleSize.height*(7/10) + playButton->getContentSize().height;
+        playButton->setPosition(Vec2(x,y));
         
-        playButton->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+        //playButton->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height*(3/4)-  + origin.y));
         CCLOG("LOADED");
     }
     
@@ -87,27 +83,19 @@ bool MainMenu::init()
     // add a label shows "Hello World"
     // create and initialize a label
     
-    auto label = Label::createWithTTF("MainMenuScene", "fonts/Marker Felt.ttf", 24);
-    if (label == nullptr)
-    {
-        problemLoading("'fonts/Marker Felt.ttf'");
-    }
-    else
-    {
+    /*auto label = Label::createWithTTF("MainMenuScene", "fonts/Marker Felt.ttf", 24);
+    if (label == nullptr){ problemLoading("'fonts/Marker Felt.ttf'"); }
+    else{
         // position the label on the center of the screen
         label->setPosition(Vec2(origin.x + visibleSize.width/2,
                                 origin.y + visibleSize.height - label->getContentSize().height));
-        
         // add the label as a child to this layer
         this->addChild(label, 1);
-    }
+    }*/
     
-    // add "HelloWorld" splash screen"
-    auto background = Sprite::create("bgL.png");
-    if (background == nullptr)
-    {
-        problemLoading("'bgL.png'");
-    }
+    // add Background
+    auto background = Sprite::create("MainMenuBG.png");
+    if (background == nullptr){ problemLoading("'MainMenuBG.png'"); }
     else
     {
         // position the sprite on the center of the screen
@@ -116,6 +104,16 @@ bool MainMenu::init()
         // add the sprite as a child to this layer
         this->addChild(background, 0);
     }
+    
+    auto title = Sprite::create("MainMenuTitle.png");
+    if (title == nullptr){ problemLoading("'MainMenuTitle.png'"); }
+    else
+    {
+        title->setPosition(Vec2(origin.x + visibleSize.width/2,
+                                origin.y + visibleSize.height - title->getContentSize().height));
+        this->addChild(title, 0);
+    }
+    
     return true;
 }
 

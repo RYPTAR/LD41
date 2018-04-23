@@ -17,14 +17,12 @@ public:
     static Scene* createScene();
     virtual bool init();
     
-    void menuCloseCallback(Ref* pSender);
-    
     void buildWorld();
-    void mainThread();
-    
+    void mainThread(float rt);
     
     /*void pauseGame(Ref* pSender);
     void quitGame(Ref* pSender);*/
+    void menuCloseCallback(Ref* pSender);
     
     CREATE_FUNC(Game);
 };

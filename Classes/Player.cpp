@@ -8,7 +8,8 @@
 #include "Player.h"
 #include "SimpleAudioEngine.h"
 
-bool Player::init(){
+bool Player::init()
+{
     if(!Sprite::init())
         return false;
     
@@ -16,20 +17,25 @@ bool Player::init(){
     return true;
 }
 
-void Player::buildPlayer(){
+void Player::buildPlayer()
+{
     this->setSpriteFrame("HeroFish_hover0.png");
 }
 
-void setX(int x){
+/*void setX(int x)
+{
     posX=x;
 }
-int getX(){
+int getX()
+{
     return posX;
 }
 
-void setY(int y){
+void setY(int y)
+{
     posY=y;
 }
-int getY(){
+int getY()
+{
     return posY;
-}
+}*/

@@ -377,7 +377,8 @@ obj/local/armeabi/objs-debug/MyGame_shared/__/__/Classes/GameScene.o: \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/CCGLProgramCache.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/ccGLStateCache.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h \
- /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../audio/include/Export.h
+ /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../audio/include/Export.h \
+ jni/../../Classes/Constants.h jni/../../Classes/Player.h
 
 jni/../../Classes/GameScene.h:
 
@@ -1136,3 +1137,7 @@ jni/../../Classes/GameScene.h:
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/audio/android/../include/SimpleAudioEngine.h:
 
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../audio/include/Export.h:
+
+jni/../../Classes/Constants.h:
+
+jni/../../Classes/Player.h:
