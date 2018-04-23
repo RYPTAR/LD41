@@ -10,6 +10,7 @@
 
 #include "Constants.h"
 #include "Player.h"
+#include "World.h"
 
 USING_NS_CC;
 
@@ -20,8 +21,8 @@ Scene* Game::createScene()
     scene->setTag(TAG_GAME_SCENE);
     
     // 'layer' is an autorelease object
-    auto layer = Layer::create();
-    scene->setTag(TAG_GAME_LAYER);
+    auto layer = World::create();
+    layer->setTag(TAG_GAME_LAYER);
     
     // add layer as a child to scene
     scene->addChild(layer, 0, TAG_GAME_LAYER);
