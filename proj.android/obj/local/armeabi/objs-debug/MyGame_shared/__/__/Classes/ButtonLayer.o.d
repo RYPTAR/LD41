@@ -376,6 +376,7 @@ obj/local/armeabi/objs-debug/MyGame_shared/__/__/Classes/ButtonLayer.o: \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../platform/android/CCApplication-android.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/CCGLProgramCache.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/ccGLStateCache.h \
+ jni/../../Classes/Player.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../ui/CocosGUI.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../ui/UIWidget.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../2d/CCProtectedNode.h \
@@ -1166,6 +1167,8 @@ jni/../../Classes/ButtonLayer.h:
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/CCGLProgramCache.h:
 
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/ccGLStateCache.h:
+
+jni/../../Classes/Player.h:
 
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../ui/CocosGUI.h:
 

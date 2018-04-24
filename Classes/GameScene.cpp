@@ -93,6 +93,7 @@ void Game::buildWorld()
     this->addChild(joystick,4);
     
     auto buttons = ButtonLayer::create();
+    buttons->setPlayer(player);
     buttons->setTag(TAG_BUTTON_LAYER);
     this->addChild(buttons,4);
 }

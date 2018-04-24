@@ -15,15 +15,18 @@ class Player : public Sprite
 private:
     int health, level, posX, posY;
     
+    
 public:
     virtual bool init();
     void buildPlayer();
     
-    void setX(int x);
+    void atk();
+    
+    /*void setX(int x);
     int getX();
     
     void setY(int y);
-    int getY();
+    int getY();*/
     
     CREATE_FUNC(Player);
 };

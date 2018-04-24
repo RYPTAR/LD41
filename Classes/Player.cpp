@@ -22,6 +22,11 @@ void Player::buildPlayer()
     this->setSpriteFrame("HeroFish_hover0.png");
 }
 
+void Player::atk()
+{
+    CCLOG("ATK");
+}
+
 /*void setX(int x)
 {
     posX=x;

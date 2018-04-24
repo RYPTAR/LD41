@@ -38,6 +38,7 @@ void ButtonLayer::buildButtons()
             case ui::Widget::TouchEventType::BEGAN:
                 break;
             case ui::Widget::TouchEventType::ENDED:
+                this->player->atk();
                 CCLOG("Button 1 clicked");
                 break;
             default:
@@ -48,4 +49,8 @@ void ButtonLayer::buildButtons()
     button->setPosition(Vec2(Utils::width()*(.9), Utils::height()/10));
     
     this->addChild(button);
+}
+void ButtonLayer::setPlayer(Player* player)
+{
+    this->player = player;
 }

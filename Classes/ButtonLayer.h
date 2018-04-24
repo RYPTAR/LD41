@@ -7,16 +7,20 @@
 
 #pragma once
 #include "cocos2d.h"
+#include "Player.h"
 
 USING_NS_CC;
 
 class ButtonLayer : public Layer
 {
+private:
+    Player* player;
 public:
     static Layer* createLayer();
     virtual bool init();
     
     void buildButtons();
+    void setPlayer(Player* player);
     
     CREATE_FUNC(ButtonLayer);
 };
