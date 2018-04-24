@@ -13,14 +13,14 @@ LOCAL_MODULE_FILENAME := libMyGame
 
 LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
                    $(LOCAL_PATH)/../../../Classes/AppDelegate.cpp \
-		   $(LOCAL_PATH)/../../../Classes/MainMenuScene.cpp \
-		   $(LOCAL_PATH)/../../../Classes/GameScene.cpp \
-		   $(LOCAL_PATH)/../../../Classes/Entity.cpp \
-		   $(LOCAL_PATH)/../../../Classes/Player.cpp \
-		   $(LOCAL_PATH)/../../../Classes/Joystick.cpp \
-		   $(LOCAL_PATH)/../../../Classes/ButtonLayer.cpp \
-		   $(LOCAL_PATH)/../../../Classes/Utils.cpp \
-		   $(LOCAL_PATH)/../../../Classes/World.cpp
+		   $(LOCAL_PATH)/../../../Classes/Scenes/MainMenuScene.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Scenes/GameScene.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Scenes/GameScene/World.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Models/Entity.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Models/Player.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Controllers/Joystick.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Controllers/ButtonLayer.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Helpers/Utils.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes
 

@@ -13,14 +13,14 @@ LOCAL_MODULE_FILENAME := libMyGame
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-		   ../../Classes/MainMenuScene.cpp \
-		   ../../Classes/GameScene.cpp \
-		   ../../Classes/Player.cpp \
-		   ../../Classes/Entity.cpp \
-		   ../../Classes/Joystick.cpp \
-		   ../../Classes/ButtonLayer.cpp \
-		   ../../Classes/Utils.cpp \
-		   ../../Classes/World.cpp
+		   ../../Classes/Scenes/MainMenuScene.cpp \
+		   ../../Classes/Scenes/GameScene.cpp \
+		   ../../Classes/Scenes/GameScene/World.cpp \
+		   ../../Classes/Models/Player.cpp \
+		   ../../Classes/Models/Entity.cpp \
+		   ../../Classes/Controllers/Joystick.cpp \
+		   ../../Classes/Controllers/ButtonLayer.cpp \
+		   ../../Classes/Helpers/Utils.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 

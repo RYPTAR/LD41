@@ -376,7 +376,7 @@ obj/local/armeabi/objs-debug/MyGame_shared/__/__/Classes/AppDelegate.o: \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../platform/android/CCApplication-android.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/CCGLProgramCache.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/ccGLStateCache.h \
- jni/../../Classes/MainMenuScene.h
+ jni/../../Classes/./Scenes/MainMenuScene.h
 
 jni/../../Classes/AppDelegate.h:
 
@@ -1132,4 +1132,4 @@ jni/../../Classes/AppDelegate.h:
 
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../renderer/ccGLStateCache.h:
 
-jni/../../Classes/MainMenuScene.h:
+jni/../../Classes/./Scenes/MainMenuScene.h:

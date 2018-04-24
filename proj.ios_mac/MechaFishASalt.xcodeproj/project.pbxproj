@@ -62,28 +62,29 @@
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
-		C03E6271208C418500A36BB3 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C03E6270208C418500A36BB3 /* GameScene.cpp */; };
 		C05229C1208CAEED002CEB5C /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = C05229C0208CAEED002CEB5C /* ipad */; };
 		C05229C3208CAEF6002CEB5C /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = C05229C2208CAEF6002CEB5C /* ipadhd */; };
 		C05229C7208CAF2A002CEB5C /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = C05229C6208CAF29002CEB5C /* iphone */; };
 		C05229C9208CAF33002CEB5C /* iphonehd in Resources */ = {isa = PBXBuildFile; fileRef = C05229C8208CAF33002CEB5C /* iphonehd */; };
 		C05229CB208CAF3A002CEB5C /* iphonehd5 in Resources */ = {isa = PBXBuildFile; fileRef = C05229CA208CAF3A002CEB5C /* iphonehd5 */; };
-		C05229D1208D3E34002CEB5C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D0208D3E34002CEB5C /* Player.cpp */; };
-		C05229D2208D3E34002CEB5C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D0208D3E34002CEB5C /* Player.cpp */; };
-		C05229D6208E2A78002CEB5C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D5208E2A78002CEB5C /* World.cpp */; };
-		C05229D7208E2A78002CEB5C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D5208E2A78002CEB5C /* World.cpp */; };
-		C05229DA208EA1DD002CEB5C /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D9208EA1DD002CEB5C /* Entity.cpp */; };
-		C05229DB208EA1DD002CEB5C /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229D9208EA1DD002CEB5C /* Entity.cpp */; };
-		C05229DD208EA98F002CEB5C /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229DC208EA98F002CEB5C /* HUDLayer.cpp */; };
-		C05229DE208EA98F002CEB5C /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229DC208EA98F002CEB5C /* HUDLayer.cpp */; };
-		C05229E6208EB447002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E5208EB447002CEB5C /* Joystick.cpp */; };
-		C05229E7208EB447002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E5208EB447002CEB5C /* Joystick.cpp */; };
-		C05229EA208ED186002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E9208ED186002CEB5C /* ButtonLayer.cpp */; };
-		C05229EB208ED186002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E9208ED186002CEB5C /* ButtonLayer.cpp */; };
-		C05229ED208F9FAC002CEB5C /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229EC208F9FAC002CEB5C /* Utils.cpp */; };
-		C05229EE208F9FAC002CEB5C /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229EC208F9FAC002CEB5C /* Utils.cpp */; };
-		C0B0B13F208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */; };
-		C0B0B140208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */; };
+		C0522A0A208FB53C002CEB5C /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A01208FB53C002CEB5C /* MainMenuScene.cpp */; };
+		C0522A0B208FB53C002CEB5C /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A01208FB53C002CEB5C /* MainMenuScene.cpp */; };
+		C0522A0C208FB53C002CEB5C /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A04208FB53C002CEB5C /* HUDLayer.cpp */; };
+		C0522A0D208FB53C002CEB5C /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A04208FB53C002CEB5C /* HUDLayer.cpp */; };
+		C0522A0E208FB53C002CEB5C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A07208FB53C002CEB5C /* World.cpp */; };
+		C0522A0F208FB53C002CEB5C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A07208FB53C002CEB5C /* World.cpp */; };
+		C0522A10208FB53C002CEB5C /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A09208FB53C002CEB5C /* GameScene.cpp */; };
+		C0522A11208FB53C002CEB5C /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A09208FB53C002CEB5C /* GameScene.cpp */; };
+		C0522A17208FB54A002CEB5C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A13208FB54A002CEB5C /* Player.cpp */; };
+		C0522A18208FB54A002CEB5C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A13208FB54A002CEB5C /* Player.cpp */; };
+		C0522A19208FB54A002CEB5C /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A14208FB54A002CEB5C /* Entity.cpp */; };
+		C0522A1A208FB54A002CEB5C /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A14208FB54A002CEB5C /* Entity.cpp */; };
+		C0522A1F208FB554002CEB5C /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A1D208FB554002CEB5C /* Utils.cpp */; };
+		C0522A20208FB554002CEB5C /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A1D208FB554002CEB5C /* Utils.cpp */; };
+		C0522A26208FB55C002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */; };
+		C0522A27208FB55C002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */; };
+		C0522A28208FB55C002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A25208FB55C002CEB5C /* Joystick.cpp */; };
+		C0522A29208FB55C002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A25208FB55C002CEB5C /* Joystick.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -184,30 +185,30 @@
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C03E6270208C418500A36BB3 /* GameScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
-		C03E6272208C41AE00A36BB3 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		C05229C0208CAEED002CEB5C /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipad; sourceTree = "<group>"; };
 		C05229C2208CAEF6002CEB5C /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadhd; sourceTree = "<group>"; };
 		C05229C6208CAF29002CEB5C /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphone; sourceTree = "<group>"; };
 		C05229C8208CAF33002CEB5C /* iphonehd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphonehd; sourceTree = "<group>"; };
 		C05229CA208CAF3A002CEB5C /* iphonehd5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphonehd5; sourceTree = "<group>"; };
-		C05229CF208D3E1A002CEB5C /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		C05229D0208D3E34002CEB5C /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
-		C05229D3208D463F002CEB5C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		C05229D4208E2A57002CEB5C /* World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
-		C05229D5208E2A78002CEB5C /* World.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
-		C05229D8208EA1BF002CEB5C /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		C05229D9208EA1DD002CEB5C /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
-		C05229DC208EA98F002CEB5C /* HUDLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HUDLayer.cpp; sourceTree = "<group>"; };
-		C05229DF208EA9A2002CEB5C /* HUDLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDLayer.h; sourceTree = "<group>"; };
-		C05229E4208EB419002CEB5C /* Joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
-		C05229E5208EB447002CEB5C /* Joystick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Joystick.cpp; sourceTree = "<group>"; };
-		C05229E8208ED165002CEB5C /* ButtonLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonLayer.h; sourceTree = "<group>"; };
-		C05229E9208ED186002CEB5C /* ButtonLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonLayer.cpp; sourceTree = "<group>"; };
-		C05229EC208F9FAC002CEB5C /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
-		C05229EF208F9FBA002CEB5C /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuScene.cpp; sourceTree = "<group>"; };
-		C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		C0522A01208FB53C002CEB5C /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuScene.cpp; sourceTree = "<group>"; };
+		C0522A02208FB53C002CEB5C /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C0522A04208FB53C002CEB5C /* HUDLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HUDLayer.cpp; sourceTree = "<group>"; };
+		C0522A05208FB53C002CEB5C /* HUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDLayer.h; sourceTree = "<group>"; };
+		C0522A06208FB53C002CEB5C /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		C0522A07208FB53C002CEB5C /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		C0522A08208FB53C002CEB5C /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		C0522A09208FB53C002CEB5C /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		C0522A13208FB54A002CEB5C /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		C0522A14208FB54A002CEB5C /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		C0522A15208FB54A002CEB5C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		C0522A16208FB54A002CEB5C /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		C0522A1C208FB554002CEB5C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C0522A1D208FB554002CEB5C /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		C0522A1E208FB554002CEB5C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C0522A22208FB55C002CEB5C /* ButtonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonLayer.h; sourceTree = "<group>"; };
+		C0522A23208FB55C002CEB5C /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonLayer.cpp; sourceTree = "<group>"; };
+		C0522A25208FB55C002CEB5C /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Joystick.cpp; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -358,25 +359,10 @@
 			children = (
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
-				C03E6272208C41AE00A36BB3 /* GameScene.h */,
-				C03E6270208C418500A36BB3 /* GameScene.cpp */,
-				C05229CF208D3E1A002CEB5C /* Player.h */,
-				C05229D0208D3E34002CEB5C /* Player.cpp */,
-				C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */,
-				C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */,
-				C05229DF208EA9A2002CEB5C /* HUDLayer.h */,
-				C05229DC208EA98F002CEB5C /* HUDLayer.cpp */,
-				C05229D4208E2A57002CEB5C /* World.h */,
-				C05229D5208E2A78002CEB5C /* World.cpp */,
-				C05229D8208EA1BF002CEB5C /* Entity.h */,
-				C05229D9208EA1DD002CEB5C /* Entity.cpp */,
-				C05229D3208D463F002CEB5C /* Constants.h */,
-				C05229EF208F9FBA002CEB5C /* Utils.h */,
-				C05229EC208F9FAC002CEB5C /* Utils.cpp */,
-				C05229E4208EB419002CEB5C /* Joystick.h */,
-				C05229E5208EB447002CEB5C /* Joystick.cpp */,
-				C05229E8208ED165002CEB5C /* ButtonLayer.h */,
-				C05229E9208ED186002CEB5C /* ButtonLayer.cpp */,
+				C0522A21208FB55C002CEB5C /* Controllers */,
+				C0522A1B208FB554002CEB5C /* Helpers */,
+				C0522A12208FB54A002CEB5C /* Models */,
+				C0522A00208FB53C002CEB5C /* Scenes */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -428,6 +414,61 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		C0522A00208FB53C002CEB5C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C0522A01208FB53C002CEB5C /* MainMenuScene.cpp */,
+				C0522A02208FB53C002CEB5C /* GameScene.h */,
+				C0522A03208FB53C002CEB5C /* GameScene */,
+				C0522A08208FB53C002CEB5C /* MainMenuScene.h */,
+				C0522A09208FB53C002CEB5C /* GameScene.cpp */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C0522A03208FB53C002CEB5C /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				C0522A04208FB53C002CEB5C /* HUDLayer.cpp */,
+				C0522A05208FB53C002CEB5C /* HUDLayer.h */,
+				C0522A06208FB53C002CEB5C /* World.h */,
+				C0522A07208FB53C002CEB5C /* World.cpp */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		C0522A12208FB54A002CEB5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0522A13208FB54A002CEB5C /* Player.cpp */,
+				C0522A14208FB54A002CEB5C /* Entity.cpp */,
+				C0522A15208FB54A002CEB5C /* Player.h */,
+				C0522A16208FB54A002CEB5C /* Entity.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0522A1B208FB554002CEB5C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C0522A1C208FB554002CEB5C /* Utils.h */,
+				C0522A1D208FB554002CEB5C /* Utils.cpp */,
+				C0522A1E208FB554002CEB5C /* Constants.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C0522A21208FB55C002CEB5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0522A22208FB55C002CEB5C /* ButtonLayer.h */,
+				C0522A23208FB55C002CEB5C /* Joystick.h */,
+				C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */,
+				C0522A25208FB55C002CEB5C /* Joystick.cpp */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -583,18 +624,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				C05229D1208D3E34002CEB5C /* Player.cpp in Sources */,
-				C05229D6208E2A78002CEB5C /* World.cpp in Sources */,
+				C0522A0E208FB53C002CEB5C /* World.cpp in Sources */,
+				C0522A17208FB54A002CEB5C /* Player.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
-				C05229E6208EB447002CEB5C /* Joystick.cpp in Sources */,
-				C03E6271208C418500A36BB3 /* GameScene.cpp in Sources */,
-				C05229EA208ED186002CEB5C /* ButtonLayer.cpp in Sources */,
-				C0B0B13F208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */,
-				C05229ED208F9FAC002CEB5C /* Utils.cpp in Sources */,
-				C05229DD208EA98F002CEB5C /* HUDLayer.cpp in Sources */,
-				C05229DA208EA1DD002CEB5C /* Entity.cpp in Sources */,
+				C0522A26208FB55C002CEB5C /* ButtonLayer.cpp in Sources */,
+				C0522A0A208FB53C002CEB5C /* MainMenuScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				C0522A10208FB53C002CEB5C /* GameScene.cpp in Sources */,
+				C0522A28208FB55C002CEB5C /* Joystick.cpp in Sources */,
+				C0522A1F208FB554002CEB5C /* Utils.cpp in Sources */,
+				C0522A19208FB54A002CEB5C /* Entity.cpp in Sources */,
+				C0522A0C208FB53C002CEB5C /* HUDLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,16 +643,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C05229D2208D3E34002CEB5C /* Player.cpp in Sources */,
-				C05229D7208E2A78002CEB5C /* World.cpp in Sources */,
+				C0522A1A208FB54A002CEB5C /* Entity.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				C05229EE208F9FAC002CEB5C /* Utils.cpp in Sources */,
+				C0522A18208FB54A002CEB5C /* Player.cpp in Sources */,
+				C0522A0F208FB53C002CEB5C /* World.cpp in Sources */,
+				C0522A20208FB554002CEB5C /* Utils.cpp in Sources */,
+				C0522A29208FB55C002CEB5C /* Joystick.cpp in Sources */,
+				C0522A27208FB55C002CEB5C /* ButtonLayer.cpp in Sources */,
+				C0522A0B208FB53C002CEB5C /* MainMenuScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				C05229DE208EA98F002CEB5C /* HUDLayer.cpp in Sources */,
-				C05229E7208EB447002CEB5C /* Joystick.cpp in Sources */,
-				C05229DB208EA1DD002CEB5C /* Entity.cpp in Sources */,
-				C05229EB208ED186002CEB5C /* ButtonLayer.cpp in Sources */,
-				C0B0B140208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */,
+				C0522A11208FB53C002CEB5C /* GameScene.cpp in Sources */,
+				C0522A0D208FB53C002CEB5C /* HUDLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
