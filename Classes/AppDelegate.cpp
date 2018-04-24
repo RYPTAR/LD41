@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+#include "./Scenes/MainMenuScene.h"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -73,28 +73,79 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0f / 60);
 
     // Set the design resolution
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER);
-    auto frameSize = glview->getFrameSize();
+    //******CHANGED: DesignResolution Policy to FIXED_HEIGHT-> best used for landscape apps.
+    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::FIXED_HEIGHT);
+    Size frameSize = glview->getFrameSize();
+    
+    // ***ADDED*** FILE RESOLUTION HANDLING! <-----Good
+    
+    Size screenRes = Director::getInstance()->getWinSize();
+    CCLOG("sX: %f, sY: %f", screenRes.width, screenRes.height);
+    auto fileUtils = FileUtils::getInstance();
+    std::vector<std::string> resDirOrders;
+    
+    //*****END******
+
     // if the frame's height is larger than the height of medium size.
     if (frameSize.height > mediumResolutionSize.height)
-    {        
+    {
+        //****ADDED*****
+        //FOLDER PUSH_BACK SYSTEM
+        
+        resDirOrders.push_back("ipadhd");
+        resDirOrders.push_back("ipad");
+        resDirOrders.push_back("iphonehd5");
+        resDirOrders.push_back("iphonehd");
+        resDirOrders.push_back("iphone");
+        CCLOG("XHD");
+        
+        //*****END******
+        
         director->setContentScaleFactor(MIN(largeResolutionSize.height/designResolutionSize.height, largeResolutionSize.width/designResolutionSize.width));
     }
     // if the frame's height is larger than the height of small size.
     else if (frameSize.height > smallResolutionSize.height)
-    {        
+    {
+        //****ADDED*****
+        //FOLDER PUSH_BACK SYSTEM
+        
+        resDirOrders.push_back("ipad");
+        resDirOrders.push_back("iphonehd5");
+        resDirOrders.push_back("iphonehd");
+        resDirOrders.push_back("iphone");
+        CCLOG("HD");
+        
+        //*****END******
+        
         director->setContentScaleFactor(MIN(mediumResolutionSize.height/designResolutionSize.height, mediumResolutionSize.width/designResolutionSize.width));
     }
     // if the frame's height is smaller than the height of medium size.
     else
-    {        
+    {
+        //****ADDED*****
+        //FOLDER PUSH_BACK SYSTEM
+        
+        resDirOrders.push_back("iphone");
+        CCLOG("SD");
+        
+        //*****END******
+        
         director->setContentScaleFactor(MIN(smallResolutionSize.height/designResolutionSize.height, smallResolutionSize.width/designResolutionSize.width));
     }
 
     register_all_packages();
+    
+    //*****ADDED*****
+    //RESOURCES
+    fileUtils->setSearchPaths(resDirOrders);
+    
+    std::string sprites = ("Sprites.plist");
+    SpriteFrameCache::getInstance()->SpriteFrameCache::addSpriteFramesWithFile(sprites);
+    
+    //*****END******
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    auto scene = MainMenu::createScene();
 
     // run
     director->runWithScene(scene);
