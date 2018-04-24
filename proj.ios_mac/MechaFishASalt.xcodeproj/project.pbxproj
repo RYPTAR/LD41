@@ -85,6 +85,7 @@
 		C0522A27208FB55C002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */; };
 		C0522A28208FB55C002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A25208FB55C002CEB5C /* Joystick.cpp */; };
 		C0522A29208FB55C002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0522A25208FB55C002CEB5C /* Joystick.cpp */; };
+		C0CEBD4C208FCE1400D7A62D /* Projectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0CEBD4B208FCE1400D7A62D /* Projectile.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -209,6 +210,8 @@
 		C0522A23208FB55C002CEB5C /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
 		C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonLayer.cpp; sourceTree = "<group>"; };
 		C0522A25208FB55C002CEB5C /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Joystick.cpp; sourceTree = "<group>"; };
+		C0CEBD49208FCE0000D7A62D /* Projectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		C0CEBD4B208FCE1400D7A62D /* Projectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Projectile.cpp; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -418,11 +421,11 @@
 		C0522A00208FB53C002CEB5C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				C0522A08208FB53C002CEB5C /* MainMenuScene.h */,
 				C0522A01208FB53C002CEB5C /* MainMenuScene.cpp */,
 				C0522A02208FB53C002CEB5C /* GameScene.h */,
-				C0522A03208FB53C002CEB5C /* GameScene */,
-				C0522A08208FB53C002CEB5C /* MainMenuScene.h */,
 				C0522A09208FB53C002CEB5C /* GameScene.cpp */,
+				C0522A03208FB53C002CEB5C /* GameScene */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -441,10 +444,12 @@
 		C0522A12208FB54A002CEB5C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C0522A13208FB54A002CEB5C /* Player.cpp */,
-				C0522A14208FB54A002CEB5C /* Entity.cpp */,
 				C0522A15208FB54A002CEB5C /* Player.h */,
+				C0522A13208FB54A002CEB5C /* Player.cpp */,
 				C0522A16208FB54A002CEB5C /* Entity.h */,
+				C0522A14208FB54A002CEB5C /* Entity.cpp */,
+				C0CEBD49208FCE0000D7A62D /* Projectile.h */,
+				C0CEBD4B208FCE1400D7A62D /* Projectile.cpp */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -629,6 +634,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				C0522A26208FB55C002CEB5C /* ButtonLayer.cpp in Sources */,
+				C0CEBD4C208FCE1400D7A62D /* Projectile.cpp in Sources */,
 				C0522A0A208FB53C002CEB5C /* MainMenuScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				C0522A10208FB53C002CEB5C /* GameScene.cpp in Sources */,

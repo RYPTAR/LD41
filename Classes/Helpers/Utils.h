@@ -26,5 +26,4 @@ public:
     static void setScale(float s);
     static float getScaleFactor();
     static void setScaleFactor(int sf);
-    
 };

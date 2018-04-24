@@ -14,11 +14,11 @@ bool Entity::init()
     if(!Sprite::init())
         return false;
     
-    this->buildEntity();
+    this->build();
     return true;
 }
 
-void Entity::buildEntity()
+void Entity::build()
 {
     this->setSpriteFrame("MrTakeout3_hover0.png");
 }

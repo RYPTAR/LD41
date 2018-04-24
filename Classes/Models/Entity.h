@@ -18,7 +18,7 @@ public:
     int health;
     
     virtual bool init();
-    void buildEntity();
+    void build();
     
     void damage();
     void die();

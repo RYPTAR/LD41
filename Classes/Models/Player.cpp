@@ -6,6 +6,7 @@
 //
 
 #include "Player.h"
+#include "../Helpers/Constants.h"
 #include "SimpleAudioEngine.h"
 
 bool Player::init()
@@ -13,18 +14,23 @@ bool Player::init()
     if(!Sprite::init())
         return false;
     
-    this->buildPlayer();
+    this->build();
     return true;
 }
 
-void Player::buildPlayer()
+void Player::build()
 {
     this->setSpriteFrame("HeroFish_hover0.png");
 }
 
 void Player::atk()
 {
-    CCLOG("ATK");
+    auto gameLayer = Director::getInstance()->getRunningScene()->getChildByTag(TAG_GAME_LAYER);
+    Projectile* shot = Projectile::create();
+    
+    shot->setPos(this->getPosition());
+    this->fired.push_back(shot);
+    gameLayer->addChild(shot);
 }
 
 /*void setX(int x)

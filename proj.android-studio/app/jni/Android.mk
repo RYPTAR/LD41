@@ -18,6 +18,7 @@ LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Scenes/GameScene/World.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Models/Entity.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Models/Player.cpp \
+		   $(LOCAL_PATH)/../../../Classes/Models/Projectile.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Controllers/Joystick.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Controllers/ButtonLayer.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Helpers/Utils.cpp

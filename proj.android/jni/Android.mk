@@ -18,6 +18,7 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
 		   ../../Classes/Scenes/GameScene/World.cpp \
 		   ../../Classes/Models/Player.cpp \
 		   ../../Classes/Models/Entity.cpp \
+		   ../../Classes/Models/Projectile.cpp \
 		   ../../Classes/Controllers/Joystick.cpp \
 		   ../../Classes/Controllers/ButtonLayer.cpp \
 		   ../../Classes/Helpers/Utils.cpp

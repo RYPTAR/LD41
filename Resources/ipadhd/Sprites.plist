@@ -4,6 +4,19 @@
     <dict>
         <key>frames</key>
         <dict>
+            <key>HeroFish_Atk0.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1394,2},{55,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{55,20}}</string>
+                <key>sourceSize</key>
+                <string>{55,20}</string>
+            </dict>
             <key>HeroFish_hover0.png</key>
             <dict>
                 <key>frame</key>
@@ -59,7 +72,7 @@
             <key>HeroFish_idle0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{841,1670},{180,236}}</string>
+                <string>{{1226,1504},{180,236}}</string>
                 <key>offset</key>
                 <string>{10,-22}</string>
                 <key>rotated</key>
@@ -111,7 +124,7 @@
             <key>Joystick0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{522,1670},{318,317}}</string>
+                <string>{{522,1664},{318,317}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -124,7 +137,7 @@
             <key>Joystick1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{940,1314},{128,127}}</string>
+                <string>{{947,988},{128,127}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,11 +202,11 @@
             <key>MrTakeout1_walk0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1175,1744},{144,268}}</string>
+                <string>{{1111,1842},{144,268}}</string>
                 <key>offset</key>
                 <string>{-1,-3}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{311,253},{144,268}}</string>
                 <key>sourceSize</key>
@@ -202,11 +215,11 @@
             <key>MrTakeout1_walk1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1023,1744},{150,268}}</string>
+                <string>{{841,1842},{150,268}}</string>
                 <key>offset</key>
                 <string>{-4,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{305,250},{150,268}}</string>
                 <key>sourceSize</key>
@@ -215,7 +228,7 @@
             <key>MrTakeout2_walk0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1075,992},{330,336}}</string>
+                <string>{{894,1504},{330,336}}</string>
                 <key>offset</key>
                 <string>{21,-9}</string>
                 <key>rotated</key>
@@ -228,11 +241,11 @@
             <key>MrTakeout2_walk1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1085,636},{318,354}}</string>
+                <string>{{538,1344},{318,354}}</string>
                 <key>offset</key>
                 <string>{15,-3}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{240,210},{318,354}}</string>
                 <key>sourceSize</key>
@@ -241,11 +254,11 @@
             <key>MrTakeout2_walkShot0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1070,1330},{412,336}}</string>
+                <string>{{947,1166},{412,336}}</string>
                 <key>offset</key>
                 <string>{-20,-9}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{158,225},{412,336}}</string>
                 <key>sourceSize</key>
@@ -254,7 +267,7 @@
             <key>MrTakeout2_walkShot1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{538,1314},{400,354}}</string>
+                <string>{{545,988},{400,354}}</string>
                 <key>offset</key>
                 <string>{-26,-3}</string>
                 <key>rotated</key>
@@ -267,11 +280,11 @@
             <key>MrTakeout3_hover0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{545,662},{528,324}}</string>
+                <string>{{1085,636},{528,324}}</string>
                 <key>offset</key>
                 <string>{-21,-78}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{99,300},{528,324}}</string>
                 <key>sourceSize</key>
@@ -306,7 +319,7 @@
             <key>MrTakeout3_hoverShotMini0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{545,988},{528,324}}</string>
+                <string>{{545,662},{528,324}}</string>
                 <key>offset</key>
                 <string>{-21,-78}</string>
                 <key>rotated</key>
@@ -363,9 +376,9 @@
             <key>realTextureFileName</key>
             <string>Sprites.png</string>
             <key>size</key>
-            <string>{1408,2014}</string>
+            <string>{1416,1997}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:4e444886b5de43ad04823afa4246a61e:11fab445555555e6b9a925debe026092:4f1e2adb64e9833dc0d6799b3053df6d$</string>
+            <string>$TexturePacker:SmartUpdate:91dd8c9f36b5c999503248cddc0676f2:fe05f3131be3cf76cbc68e54a3ce49e6:4f1e2adb64e9833dc0d6799b3053df6d$</string>
             <key>textureFileName</key>
             <string>Sprites.png</string>
         </dict>
