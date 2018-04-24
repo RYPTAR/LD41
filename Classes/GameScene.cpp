@@ -12,6 +12,7 @@
 #include "Player.h"
 #include "World.h"
 #include "Entity.h"
+#include "Joystick.h"
 
 USING_NS_CC;
 
@@ -22,7 +23,7 @@ Scene* Game::createScene()
     scene->setTag(TAG_GAME_SCENE);
     
     // 'layer' is an autorelease object
-    auto layer = World::create();
+    auto layer = Layer::create();
     layer->setTag(TAG_GAME_LAYER);
     
     // add layer as a child to scene
@@ -62,11 +63,11 @@ void Game::buildWorld()
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
-    auto player = Entity::create();
+    auto player = Player::create();
     player->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
     player->setTag(TAG_PLAYER);
     
-    auto background = Sprite::create("Stars0.png");
+    /*auto background = Sprite::create("Stars0.png");
     if (background == nullptr)
     {
         problemLoading("'Stars0.png'");
@@ -78,9 +79,16 @@ void Game::buildWorld()
         
         // add the sprite as a child to this layer
         this->addChild(background, 0);
-    }
+    }*/
 
     this->addChild(player,3);
+    
+    auto joystick = Joystick::create();
+    joystick->setMainChar(player);
+    joystick->setSpeed(0.1f);
+    joystick->setLimitScreen(true);
+    joystick->setTouchShow(true);
+    this->addChild(joystick,4);
 }
 
 
