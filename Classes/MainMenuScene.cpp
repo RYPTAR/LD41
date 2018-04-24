@@ -1,6 +1,8 @@
 #include "MainMenuScene.h"
 #include "GameScene.h"
 #include "SimpleAudioEngine.h"
+#include "Utils.h"
+#include "Constants.h"
 
 USING_NS_CC;
 
@@ -25,9 +27,8 @@ bool MainMenu::init()
     {
         return false;
     }
-    
-    auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
+    auto size = Utils::size();
+    Vec2 origin = Utils::origin();
     
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -52,7 +53,7 @@ bool MainMenu::init()
     { problemLoading("'CloseNormal.png' and 'CloseSelected.png'"); }
     else
     {
-        float x = origin.x + visibleSize.width - closeItem->getContentSize().width/2;
+        float x = origin.x + size.width - closeItem->getContentSize().width/2;
         float y = origin.y + closeItem->getContentSize().height/2;
         closeItem->setPosition(Vec2(x,y));
     }
@@ -62,11 +63,11 @@ bool MainMenu::init()
     { problemLoading("'HeroFish_idle0.png' and 'HeroFish_idleShot0.png'"); }
     else
     {
-        float x = origin.x + visibleSize.width/2;
-        float y = origin.y + visibleSize.height*(7/10) + playButton->getContentSize().height;
+        float x = origin.x + size.width/2;
+        float y = origin.y + size.height*(7/10) + playButton->getContentSize().height;
         playButton->setPosition(Vec2(x,y));
         
-        //playButton->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height*(3/4)-  + origin.y));
+        //playButton->setPosition(Vec2(size.width/2 + origin.x, size.height*(3/4)-  + origin.y));
         CCLOG("LOADED");
     }
     
@@ -87,8 +88,8 @@ bool MainMenu::init()
     if (label == nullptr){ problemLoading("'fonts/Marker Felt.ttf'"); }
     else{
         // position the label on the center of the screen
-        label->setPosition(Vec2(origin.x + visibleSize.width/2,
-                                origin.y + visibleSize.height - label->getContentSize().height));
+        label->setPosition(Vec2(origin.x + size.width/2,
+                                origin.y + size.height - label->getContentSize().height));
         // add the label as a child to this layer
         this->addChild(label, 1);
     }*/
@@ -99,7 +100,7 @@ bool MainMenu::init()
     else
     {
         // position the sprite on the center of the screen
-        background->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+        background->setPosition(Vec2(size.width/2 + origin.x, size.height/2 + origin.y));
         
         // add the sprite as a child to this layer
         this->addChild(background, 0);
@@ -109,8 +110,8 @@ bool MainMenu::init()
     if (title == nullptr){ problemLoading("'MainMenuTitle.png'"); }
     else
     {
-        title->setPosition(Vec2(origin.x + visibleSize.width/2,
-                                origin.y + visibleSize.height - title->getContentSize().height));
+        title->setPosition(Vec2(origin.x + size.width/2,
+                                origin.y + size.height - title->getContentSize().height));
         this->addChild(title, 0);
     }
     

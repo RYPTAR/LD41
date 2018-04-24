@@ -9,6 +9,7 @@
 #include "SimpleAudioEngine.h"
 
 #include "Constants.h"
+#include "Utils.h"
 #include "Player.h"
 #include "World.h"
 #include "Entity.h"
@@ -61,11 +62,11 @@ bool Game::init()
 
 void Game::buildWorld()
 {
-    auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
+    auto size = Utils::size();
+    Vec2 origin = Utils::origin();
 
     auto player = Player::create();
-    player->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+    player->setPosition(Vec2(size.width/2 + origin.x, size.height/2 + origin.y));
     player->setTag(TAG_PLAYER);
     
     /*auto background = Sprite::create("Stars0.png");
@@ -76,7 +77,7 @@ void Game::buildWorld()
     else
     {
         // position the sprite on the center of the screen
-        background->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+        background->setPosition(Vec2(size.width/2 + origin.x, size.height/2 + origin.y));
         
         // add the sprite as a child to this layer
         this->addChild(background, 0);

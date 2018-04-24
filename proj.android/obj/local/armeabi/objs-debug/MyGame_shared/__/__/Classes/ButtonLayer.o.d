@@ -411,7 +411,7 @@ obj/local/armeabi/objs-debug/MyGame_shared/__/__/Classes/ButtonLayer.o: \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../ui/UILayoutComponent.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../ui/UITabControl.h \
  /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../editor-support/cocostudio/CocosStudioExtension.h \
- jni/../../Classes/Constants.h
+ jni/../../Classes/Constants.h jni/../../Classes/Utils.h
 
 jni/../../Classes/ButtonLayer.h:
 
@@ -1238,3 +1238,5 @@ jni/../../Classes/ButtonLayer.h:
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/cocos2d/cocos/3d/../editor-support/cocostudio/CocosStudioExtension.h:
 
 jni/../../Classes/Constants.h:
+
+jni/../../Classes/Utils.h:

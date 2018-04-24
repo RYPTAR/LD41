@@ -8,6 +8,7 @@
 #include "ButtonLayer.h"
 #include "ui/CocosGUI.h"
 #include "Constants.h"
+#include "Utils.h"
 
 USING_NS_CC;
 
@@ -28,8 +29,6 @@ bool ButtonLayer::init()
 }
 void ButtonLayer::buildButtons()
 {
-    auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
     auto button = ui::Button::create("Primary0.png", "Primary1.png", "Primary1.png", ui::Widget::TextureResType::PLIST);
     //button->setTitleText("Button Text");
     
@@ -46,7 +45,7 @@ void ButtonLayer::buildButtons()
         }
     });
     
-    button->setPosition(Vec2(visibleSize.width*(.9), visibleSize.height/10));
+    button->setPosition(Vec2(Utils::width()*(.9), Utils::height()/10));
     
     this->addChild(button);
 }

@@ -28,8 +28,6 @@ bool Joystick::init()
     
     
     _winSize = Director::getInstance()->getWinSize();
-    auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
     _isTouch = false;
     
