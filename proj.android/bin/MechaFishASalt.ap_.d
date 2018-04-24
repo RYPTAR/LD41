@@ -20,9 +20,11 @@
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/HeroFishSheet.plist \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/MrTakeoutSheet.png \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/World \
+/Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/BG_Stars.png \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/bgL.png \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/MainMenuBG.png \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/MrTakeout3Sheet.plist \
+/Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/BG_Asteroids.png \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/HeroFishSheet.png \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/Sprites.plist \
 /Users/rypapp/Documents/Development/CocosProjects/3.16/MechaFishASalt/proj.android/assets/ipadhd/MrTakeout3Sheet.png \

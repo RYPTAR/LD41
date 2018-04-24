@@ -16,6 +16,7 @@ typedef enum {
     TAG_GAME_SCENE,
     TAG_PAUSE,
     TAG_MAIN,
+    TAG_BUTTON_LAYER,
     TAG_BG1,
     TAG_BG2,
     TAG_BG3,

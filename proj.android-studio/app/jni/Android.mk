@@ -18,6 +18,7 @@ LOCAL_SRC_FILES := $(LOCAL_PATH)/hellocpp/main.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Entity.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Player.cpp \
 		   $(LOCAL_PATH)/../../../Classes/Joystick.cpp \
+		   $(LOCAL_PATH)/../../../Classes/ButtonLayer.cpp \
 		   $(LOCAL_PATH)/../../../Classes/World.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes

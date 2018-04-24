@@ -78,6 +78,8 @@
 		C05229DE208EA98F002CEB5C /* HUDLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229DC208EA98F002CEB5C /* HUDLayer.cpp */; };
 		C05229E6208EB447002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E5208EB447002CEB5C /* Joystick.cpp */; };
 		C05229E7208EB447002CEB5C /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E5208EB447002CEB5C /* Joystick.cpp */; };
+		C05229EA208ED186002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E9208ED186002CEB5C /* ButtonLayer.cpp */; };
+		C05229EB208ED186002CEB5C /* ButtonLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05229E9208ED186002CEB5C /* ButtonLayer.cpp */; };
 		C0B0B13F208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */; };
 		C0B0B140208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -198,6 +200,8 @@
 		C05229DF208EA9A2002CEB5C /* HUDLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDLayer.h; sourceTree = "<group>"; };
 		C05229E4208EB419002CEB5C /* Joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
 		C05229E5208EB447002CEB5C /* Joystick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Joystick.cpp; sourceTree = "<group>"; };
+		C05229E8208ED165002CEB5C /* ButtonLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonLayer.h; sourceTree = "<group>"; };
+		C05229E9208ED186002CEB5C /* ButtonLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ButtonLayer.cpp; sourceTree = "<group>"; };
 		C0B0B13E208BC7B3004C9A87 /* MainMenuScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuScene.cpp; sourceTree = "<group>"; };
 		C0B0B141208BC7DE004C9A87 /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -365,6 +369,8 @@
 				C05229D3208D463F002CEB5C /* Constants.h */,
 				C05229E4208EB419002CEB5C /* Joystick.h */,
 				C05229E5208EB447002CEB5C /* Joystick.cpp */,
+				C05229E8208ED165002CEB5C /* ButtonLayer.h */,
+				C05229E9208ED186002CEB5C /* ButtonLayer.cpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -577,6 +583,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				C05229E6208EB447002CEB5C /* Joystick.cpp in Sources */,
 				C03E6271208C418500A36BB3 /* GameScene.cpp in Sources */,
+				C05229EA208ED186002CEB5C /* ButtonLayer.cpp in Sources */,
 				C0B0B13F208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */,
 				C05229DD208EA98F002CEB5C /* HUDLayer.cpp in Sources */,
 				C05229DA208EA1DD002CEB5C /* Entity.cpp in Sources */,
@@ -595,6 +602,7 @@
 				C05229DE208EA98F002CEB5C /* HUDLayer.cpp in Sources */,
 				C05229E7208EB447002CEB5C /* Joystick.cpp in Sources */,
 				C05229DB208EA1DD002CEB5C /* Entity.cpp in Sources */,
+				C05229EB208ED186002CEB5C /* ButtonLayer.cpp in Sources */,
 				C0B0B140208BC7B3004C9A87 /* MainMenuScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

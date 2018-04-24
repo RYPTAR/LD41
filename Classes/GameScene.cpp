@@ -13,6 +13,7 @@
 #include "World.h"
 #include "Entity.h"
 #include "Joystick.h"
+#include "ButtonLayer.h"
 
 USING_NS_CC;
 
@@ -89,6 +90,10 @@ void Game::buildWorld()
     joystick->setLimitScreen(true);
     joystick->setTouchShow(true);
     this->addChild(joystick,4);
+    
+    auto buttons = ButtonLayer::create();
+    buttons->setTag(TAG_BUTTON_LAYER);
+    this->addChild(buttons,4);
 }
 
 
