@@ -25,3 +25,8 @@ typedef enum {
     TAG_FG3,
     TAG_PLAYER,
 }tags;
+
+typedef enum {
+    PLAYER,
+    ENEMY
+}types;

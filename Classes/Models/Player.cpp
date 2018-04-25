@@ -6,6 +6,7 @@
 //
 
 #include "Player.h"
+#include "Projectile.h"
 #include "../Helpers/Constants.h"
 #include "SimpleAudioEngine.h"
 
@@ -29,10 +30,9 @@ void Player::atk()
     Projectile* shot = Projectile::create();
     
     shot->setPos(this->getPosition());
-    this->fired.push_back(shot);
+    shot->setOwner(PLAYER);
     gameLayer->addChild(shot);
 }
-
 /*void setX(int x)
 {
     posX=x;

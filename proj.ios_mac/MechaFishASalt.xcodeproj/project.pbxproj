@@ -468,8 +468,8 @@
 			isa = PBXGroup;
 			children = (
 				C0522A22208FB55C002CEB5C /* ButtonLayer.h */,
-				C0522A23208FB55C002CEB5C /* Joystick.h */,
 				C0522A24208FB55C002CEB5C /* ButtonLayer.cpp */,
+				C0522A23208FB55C002CEB5C /* Joystick.h */,
 				C0522A25208FB55C002CEB5C /* Joystick.cpp */,
 			);
 			path = Controllers;

@@ -12,16 +12,19 @@ USING_NS_CC;
 class Projectile : public Sprite
 {
 private:
-    bool traveling;
     Vec2 pos;
+    int owner;
     
 public:
     
     virtual bool init();
     void build();
     void setPos(Vec2 pos);
+    void setOwner(int owner);
     
     void runTime(float dt);
+    void updatePos(Vec2 pos);
+    void destroy();
     
     CREATE_FUNC(Projectile);
 };
