@@ -96,8 +96,35 @@ void Game::buildWorld()
     buttons->setPlayer(player);
     buttons->setTag(TAG_BUTTON_LAYER);
     this->addChild(buttons,4);
+    
+    this->schedule(schedule_selector(Game::mainThread));
 }
 
+void Game::mainThread(float dt)
+{
+    this->rng = std::rand() % 30;
+    if(this->rng == 1)
+    {
+        this->spawnMinion();
+    }
+}
+
+void Game::spawnMinion()
+{
+    //TODO: Randomize spawn locations
+    auto size = Utils::size();
+    Vec2 origin = Utils::origin();
+    auto rngX = std::rand() % (int)size.width;
+    auto rngY = std::rand() % (int)size.height;
+    CCLOG("rngX: %d, rngY: %d", rngX, rngY);
+    CCLOG("sizeW: %f, sizeH: %f", size.width, size.height);
+    
+    
+    
+    auto minion = Entity::create();
+    minion->setPosition(Vec2(rngX+ origin.x, rngY + origin.y));
+    this->addChild(minion);
+}
 
 void Game::menuCloseCallback(Ref* pSender)
 {

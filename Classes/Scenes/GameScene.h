@@ -13,12 +13,15 @@ USING_NS_CC;
 
 class Game : public Scene
 {
+private:
+    int rng;
 public:
     static Scene* createScene();
     virtual bool init();
     
     void buildWorld();
     void mainThread(float dt);
+    void spawnMinion();
     
     /*void pauseGame(Ref* pSender);
     void quitGame(Ref* pSender);*/
